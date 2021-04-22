@@ -14,7 +14,7 @@ export const HeaderComponent = props => (
         left={
             <button className="back-button" onClick={props.goBack}>
                 <Flex alignVertical="center">
-                    <IconArrowLeft/>
+                    {props.goBack && <IconArrowLeft/>}
                     <IconLogo size="l"/>
                 </Flex>
             </button>
