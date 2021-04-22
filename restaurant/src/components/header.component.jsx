@@ -9,13 +9,15 @@ import {
     Util
 } from 'snacks-design-system';
 
-export const HeaderComponent = () => (
+export const HeaderComponent = props => (
     <Header
         left={
-            <Flex alignVertical="center">
-                <IconArrowLeft/>
-                <IconLogo size="l"/>
-            </Flex>
+            <button className="back-button" onClick={props.goBack}>
+                <Flex alignVertical="center">
+                    <IconArrowLeft/>
+                    <IconLogo size="l"/>
+                </Flex>
+            </button>
         }
         modAutoWidth
         right={
