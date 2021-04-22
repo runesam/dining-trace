@@ -11,13 +11,13 @@ export const OrderAffectedCustomersComponent = (props) => {
 
         const getCustomers = () => Promise.resolve({
             data: [
-                {id: 1, dateTime: new Date().toISOString(), phoneNumber: 123, email: 'asda@asda.com'},
-                {id: 2, dateTime: new Date().toISOString(), phoneNumber: 222, email: 'tes@as.com'},
-                {id: 3, dateTime: new Date().toISOString(), phoneNumber: 123, email: 'asda@asda.com'},
-                {id: 4, dateTime: new Date().toISOString(), phoneNumber: 222, email: 'tes@as.com'},
-                {id: 5, dateTime: new Date().toISOString(), phoneNumber: 222, email: 'tes@as.com'},
-                {id: 6, dateTime: new Date().toISOString(), phoneNumber: 123, email: 'asda@asda.com'},
-                {id: 7, dateTime: new Date().toISOString(), phoneNumber: 222, email: 'tes@as.com'},
+                {id: 1, dateTime: '2021-04-21T15:00', phoneNumber: '(323) 572-1630', email: 'larry@att.net'},
+                {id: 2, dateTime: '2021-04-21T15:30', phoneNumber: '(723) 945-2539', email: 'bmcmahon@yahoo.com'},
+                {id: 3, dateTime: '2021-04-21T15:40', phoneNumber: '(663) 795-3739', email: 'budinger@live.com'},
+                {id: 4, dateTime: '2021-04-21T15:45', phoneNumber: '(544) 247-4852', email: 'oevans@att.net'},
+                {id: 5, dateTime: '2021-04-21T16:15', phoneNumber: '(294) 492-3632', email: 'reeds@sbcglobal.net'},
+                {id: 6, dateTime: '2021-04-21T17:05', phoneNumber: '(570) 448-1820', email: 'ninenine@hotmail.com'},
+                {id: 7, dateTime: '2021-04-21T17:13', phoneNumber: '(472) 592-9935', email: 'parksh@mac.com'},
             ],
         });
 
